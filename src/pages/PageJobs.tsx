@@ -11,7 +11,7 @@ type Job = {
   todo: string;
 };
 
-const url = "http://localhost:3115";
+const url = "http://localhost:3001";
 
 export const PageJobs = () => {
   const [jobs, setJobs] = useState<Job[]>([]);
